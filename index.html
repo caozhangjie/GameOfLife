@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Game of Life</title>
+		<script type="text/javascript" src = "js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src = "js/main.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div class="title">Game of Life</div>
+		<div class="contain">
+			<canvas id="canvas" width="1000" height="600">
+				Canvas not supported
+			</canvas>
+		</div>
+		<button class="myButton" id="start">开始</button>
+		<button class="myButton" id="single">单步进行</button>
+		<button class="myButton" id="continue">连续进行</button>
+		<button class="myButton" id="pause">暂停</button>
+		<div id="input_size">输入细胞大小：<input id="size"/> <button id="ready">确认</button></div>
+		<div id='current_size'>当前细胞大小：4</div>
+	</body>
+</html>
