@@ -10,7 +10,7 @@
 	<body>
 		<div class="title">Game of Life</div>
 		<div class="contain">
-			<canvas id="canvas" width="1000" height="600">
+			<canvas id="canvas" width="1000" height="600" style="border:1px solid #c3c3c3;">
 				Canvas not supported
 			</canvas>
 		</div>
@@ -19,6 +19,11 @@
 		<button class="myButton" id="continue">连续进行</button>
 		<button class="myButton" id="pause">暂停</button>
 		<div id="input_size">输入细胞大小：<input id="size"/> <button id="ready">确认</button></div>
+		<div id="input_frequency">输入动画切换频率：<input id="frequency"/> <button id="ready_frequency">确认</button></div>
+		<div id="input_density">输入活细胞密度：<input id="density"/> <button id="ready_density">确认</button></div>
 		<div id='current_size'>当前细胞大小：4</div>
+		<div id='current_frequency'>当前频率：10</div>
+		<div id='current_density'>当前细胞存活率：0.5</div>
+		<div id='set_wall'></div>
 	</body>
 </html>
